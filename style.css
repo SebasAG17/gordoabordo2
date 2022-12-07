@@ -1,0 +1,667 @@
+* {
+    font-family: "Work Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor-inicial {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 0px auto;
+    border: 1px solid rgb(48, 46, 46);
+}
+
+.contenedora-imagen {
+    height: 300px;
+    width: 400px;
+}
+
+img {
+    display: block;
+    width: 350px;
+    height: 398px;
+}
+
+.icono-ig {
+    position: absolute;
+    top: 430px;
+    left: 900px;
+}
+
+.icono-fb {
+    position: absolute;
+    top: 430px;
+    left: 950px;
+}
+
+.contenedor-login {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(110, 100, 100, 0.204);
+}
+
+.titulo-login {
+    color: rgb(0, 238, 255);
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto 60px;
+}
+
+.input {
+    border: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    width: 80%;
+    margin: 10px auto;
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+}
+
+.contendor-botones {
+    display: flex;
+    justify-items: center;
+    gap: 60px;
+    justify-items: center;
+}
+
+.boton {
+    width: 110px;
+    height: 25px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.sign-up {
+    color: rgb(0, 255, 221);
+    background-color: white;
+    border: transparent;
+}
+
+.sign-up:hover {
+    color: rgba(79, 88, 91, 0.389);
+}
+
+.login {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 221);
+    border: transparent;
+}
+
+.login:hover {
+    color: rgba(79, 88, 91, 0.389);
+}
+
+.icono-ig {
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+    text-align: center;
+}
+
+.icono-fb {
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+    text-align: center;
+}
+
+.ig-col {
+    color: #63666c;
+}
+
+.fb-col {
+    color: #63666c;
+}
+
+.general-log {
+    margin-top: 90px;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    justify-content: space-between;
+}
+
+.tit-p2 {
+    font-size: 18px;
+    margin-top: 30px;
+    position: absolute;
+    left: 50px;
+    margin-left: 60px;
+}
+
+.tope {
+    display: flex;
+    background-color: #c7c7eb;
+    height: 80px;
+}
+
+.icono-wr {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.barra-buscar {
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    right: 500px;
+}
+
+.barrita {
+    height: 15px;
+    display: flex;
+    text-align: center;
+    margin-top: 33px;
+    position: absolute;
+    right: 320px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: black 2px solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.info-header {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    margin-top: 30px;
+    position: absolute;
+    right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+.sec1-2 {
+    background: #d1d7e261;
+    margin-top: 8px;
+    padding: 100px;
+    margin-bottom: 8px;
+}
+.sec2-2 {
+    background-color: #d1d7e261;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 100px;
+    transition: all 300ms;
+}
+.sec2-2 img:hover{
+    transform: scale(1.15);
+}
+.sec3-2 {
+    background-color: #d1d7e261;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 100px;
+    transition: all 300ms;
+}
+.sec3-2 img:hover {
+    transform: scale(1.15);
+}
+
+/*footer*/
+
+footer {
+    height: 200px;
+    background-color: #c7c7eb;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.icono-ig2 {
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+}
+
+.icono-fb2 {
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+}
+
+.imagen-sec1 {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    top: 150px;
+    height: 300px;
+    width: 550px;
+    border-radius: 10%;
+}
+
+.nac-1 {
+    text-align: center;
+}
+
+.inter-2 {
+    text-align: center;
+}
+
+.hotel {
+    height: 350px;
+    float: left;
+    display: flex;
+    margin-right: 140px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.playa {
+    height: 350px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.hotel2 {
+    float: right;
+    height: 350px;
+    margin-left: -100px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.titho1 {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.titho2 {
+    margin-top: -20px;
+}
+
+.titho3 {
+    margin-top: -30px;
+    text-align: right;
+}
+
+.compra-cancun {
+    margin: 100px;
+}
+
+.compra-cancun {
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 550px;
+}
+
+.compra-cancunb {
+    height: 40px;
+    cursor: pointer;
+    border: black 2px solid;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.cali1 {
+    border-radius: 50%;
+    float: right;
+    height: 345px;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.cali2 {
+    border-radius: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: black 6px solid;
+    height: 350px;
+}
+
+.cali3 {
+    border-radius: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: black 6px solid;
+    height: 350px;
+    margin-top: -350px;
+    margin-left: 500px;
+}
+
+.calit1 {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.calit2 {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.calit3 {
+    margin-top: -25px;
+    margin-right: 105px;
+    text-align: right;
+}
+
+.compra-cali {
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 500px;
+}
+
+.compra-cali-clase {
+    margin-left: 200px;
+}
+
+.compra-calibut {
+    border: black 2px solid;
+    width: 120px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.txtmanizales {
+    text-align: center;
+}
+
+.imgmanizales1 {
+    float: right;
+    height: 350px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.imgmanizales2 {
+    height: 350px;
+    position: absolute;
+    left: 90px;
+    margin-left: 500px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.imgmanizales3 {
+    height: 350px;
+    border-radius: 50%;
+    border: black 6px solid;
+}
+
+.chipre-tit {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.plazabl {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.parquemujer {
+    text-align: right;
+    margin-top: -35px;
+    margin-right: 50px;
+}
+
+.contenido-copyright {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #888896;
+}
+.compra-manizales {
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 500px;
+}
+
+.venta-manizales {
+    margin-left: 160px;
+}
+.descripciones-cancun {
+    margin-left: 160px;
+}
+.ingresar-datos { 
+    width: 600px;
+    border-radius: 20px;
+    height: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    background: #c7c7eb69;
+    border: 1px black solid;
+    justify-items: center;
+}
+.titulo-compra {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.compra-datos {
+    margin: 30px;
+    width: 300px;
+    align-items: center;
+}
+.compra-datos input {
+    margin-left: 130px;
+    border: transparent;
+    background: transparent;
+    border-bottom: black 2px solid;
+    outline: none;
+    transition: all 100ms;
+    width: 250px;
+    cursor: pointer;
+}
+.compra-datos input:nth-child(1) {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.compra-datos input:nth-child(2) {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.compra-datos input:nth-child(3) {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.compra-datos input:nth-child(4) {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.compra-datos input:nth-child(5) {
+    text-align: center;
+}
+.compra-datos input:nth-child(6) {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.compra-datos input:nth-child(7) {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.compra-datos input:nth-child(8) {
+    text-align: center;
+    margin-top: 5px;
+}
+.compra-datos input:nth-child(9) {
+    text-align: center;
+    margin-top: 10px;
+}
+.compra-datos input:hover {
+    transform: scale(1.30);
+}
+input::placeholder {
+    color: rgba(0, 0, 0, 0.874);
+}
+.devu {
+    font-size: 30px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+}
+button {
+    transition: all 200ms;
+}
+button:hover {
+    transform: scale(1.20);
+}
+.titulo-compra2{
+    font-size: 30px;
+    margin-top: 30px;
+    position: relative;
+    left: 140px;
+    margin-bottom: 10px;
+}
+.imagenes-card img {
+    height: 30px;
+    width: 60px;
+    margin-right: 40px;
+    border-radius: 10px;
+    transition: all 150ms;
+}
+.imagenes-card img:hover {
+    transform: scale(1.20);
+}
+.imagenes-card {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 100px;
+}
+.body-general-comprar {
+    background-image: url(/imagen/Avionimg.jpg);
+}
+.boton-pagof {
+    position: relative;
+    top: 40px;
+    right: -160px;
+    border: transparent;
+    outline: none;
+    background: rgb(166, 255, 34);
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+}
+.pagina {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pagina-cargando {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    height: 100vh;
+    background-color: #c7c7eb;
+    animation: loading 3s forwards;
+}
+
+.barras {
+    width: 50px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: #24232a;
+    animation-name: alto-bajo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes alto-bajo {
+    0% {
+        transform: scaleY(0);
+    }
+    40% {
+        transform: scaleY(1.2);
+    }
+    80% {
+        transform: scaleY(1.2);
+    }
+    100% {
+        transform: scaleY(0);
+    }
+}
+
+.barras:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.barras:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.barras:nth-child(3) {
+    animation-delay: 1s;
+}
+.barras:nth-child(4) {
+    animation-delay: 1.5s;
+}
+.barras:nth-child(5) {
+    animation-delay: 2s;
+}
+.acomodo-centro-f {
+    text-align: center;
+    margin-top: 300px;
+}
+.body-index {
+    background-image: url(/imagen/Avionimg.jpg);
+}
+.helping img{
+    width: 300px;
+    height: 300px;
+    margin-left: 610px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.helping {
+    margin-top: 100px;
+    text-align: center;
+}
+.devu-ayuda {
+    font-size: 30px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    transition: all 300ms;
+}
+.devu-ayuda {
+    transform: scale(1.50);
+}
